@@ -10,13 +10,13 @@ html body {
 
     /* Show background image only for portrait tablet to landscape and desktop screens */
     @media (min-width: 768px) {
-        background: #222222 url(../img/yfs-bg.jpg);
+        background: #222222 url(../img/logo/yfs-bg.jpg);
     }
 }
 
 html.lt-ie9 body {
     // Show image always for IE9-.
-    background: #222222 url(../img/yfs-bg.jpg);
+    background: #222222 url(../img/logo/yfs-bg.jpg);
 }
 
 .container {
@@ -26,7 +26,7 @@ html.lt-ie9 body {
     min-height: 480px;
     text-shadow: 0px 1px 1px #FFFFFF;
 
-    .img-gradient("../img/bghaze.png", #FFFFFF, 0.75, #FFFFFF, #FFCEA3);
+    .img-gradient("../img/common/bghaze.png", #FFFFFF, 0.75, #FFFFFF, #FFCEA3);
 }
 
 .dropdown {
@@ -34,7 +34,7 @@ html.lt-ie9 body {
 }
 
 .share-qr {
-    background: url(../img/share-qr.png) no-repeat;
+    background: url(../img/common/share-qr.png) no-repeat;
     width: 300px;
     height: 300px;
     margin: 0 auto;
@@ -45,7 +45,7 @@ aside .highlight {
 }
 
 .spread-the-word {
-    background: url(../img/spread-the-word.png) no-repeat;
+    background: url(../img/common/spread-the-word.png) no-repeat;
     width: 32px;
     height: 32px;
     display: block;
@@ -77,6 +77,10 @@ aside .highlight {
 
 a.plain-anchor:hover {
     text-decoration: none;
+}
+
+div.vertical-spacer {
+    margin-top: 15px;
 }
 
 div.vertical-spacer.small {
