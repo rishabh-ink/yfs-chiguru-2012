@@ -10,13 +10,13 @@ html body {
 
     /* Show background image only for portrait tablet to landscape and desktop screens */
     @media (min-width: 768px) {
-        background: #222222 url(../img/logo/yfs-bg.jpg);
+        background: #222222 url(../img/common/gplaypattern.png);
     }
 }
 
 html.lt-ie9 body {
     // Show image always for IE9-.
-    background: #222222 url(../img/logo/yfs-bg.jpg);
+    background: #222222 url(../img/common/gplaypattern.png);
 }
 
 .container {
@@ -26,7 +26,9 @@ html.lt-ie9 body {
     min-height: 480px;
     text-shadow: 0px 1px 1px #FFFFFF;
 
-    .img-gradient("../img/common/bghaze.png", #FFFFFF, 0.75, #FFFFFF, #FFCEA3);
+    .img-gradient("../img/common/bghaze.png", #FFFFFF, 1, #C9E2FF, #ADD4FF, center center, 960px);
+
+    .drop-shadow();
 }
 
 .dropdown {
@@ -41,7 +43,7 @@ html.lt-ie9 body {
 }
 
 aside .highlight {
-    font-size: @baseFontSize + 5px;
+    font-size: @baseFontSize + 2px;
 }
 
 .spread-the-word {

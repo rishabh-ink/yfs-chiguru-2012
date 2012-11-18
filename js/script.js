@@ -5,12 +5,12 @@
 
 jQuery(document).ready(function() {
 	// Enable tooltips
-	jQuery("[rel='tooltip']").tooltip();
+	jQuery("[rel~='tooltip']").tooltip();
 
 	// Enable popovers
-	jQuery("[rel='popover']").popover({
+	jQuery("[rel~='popover']").popover({
 		html: true,
-		placement: 'left'
+		placement: 'right'
 	});
 });
 
