@@ -1,0 +1,40 @@
+.facebook, .Twitter_alt, .youtube_alt, .picasa_alt, .rss, .mail{
+	background: url(sprites.png) no-repeat;
+}
+
+.facebook{
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+}
+
+.Twitter_alt{
+	background-position: 0 -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.youtube_alt{
+	background-position: 0 -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.picasa_alt{
+	background-position: 0 -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.rss{
+	background-position: 0 -128px ;
+	width: 32px;
+	height: 32px;
+}
+
+.mail{
+	background-position: 0 -160px ;
+	width: 32px;
+	height: 32px;
+}
+
