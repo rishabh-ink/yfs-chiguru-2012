@@ -16,8 +16,8 @@
   * Google Maps (maps.google.com)
 
 /* SITE */
-  Last update: 4th August, 2012
-  Source code: http://github.com/rishabhsrao/yfs-ad-2012
+  Last update: 19th November, 2012
+  Source code: http://github.com/rishabhsrao/yfs-chiguru-2012
   Language: en_US
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery, Twitter Bootstrap

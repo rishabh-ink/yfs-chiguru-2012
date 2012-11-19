@@ -12,6 +12,8 @@ jQuery(document).ready(function() {
 		html: true,
 		placement: 'right'
 	});
+
+	jQuery("#carousel").carousel();
 });
 
 
