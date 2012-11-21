@@ -10600,20 +10600,7 @@ ul.icons li .icon-large:before {
 /* Body style rules */
 html body {
   overflow-y: scroll;
-  /* Landscape phone to portrait tablet */
-
-  /* Show background image only for portrait tablet to landscape and desktop screens */
-
-}
-@media (max-width: 767px) {
-  html body {
-    background: #222222;
-  }
-}
-@media (min-width: 768px) {
-  html body {
-    background: #222222 url(../img/common/gplaypattern.png);
-  }
+  background: #222222 url(../img/common/gplaypattern.png);
 }
 html.lt-ie9 body {
   background: #222222 url(../img/common/gplaypattern.png);
@@ -10696,10 +10683,10 @@ aside .highlight {
 a.plain-anchor:hover {
   text-decoration: none;
 }
-div.vertical-spacer {
+.panel {
   margin-top: 15px;
 }
-div.vertical-spacer.small {
+.panel.small {
   margin-top: 5px;
 }
 ul.horizontal-list {
