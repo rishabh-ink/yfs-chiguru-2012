@@ -3,15 +3,7 @@
 html body {
     overflow-y: scroll;
 
-    /* Landscape phone to portrait tablet */
-    @media (max-width: 767px) {
-        background: #222222;
-    }
-
-    /* Show background image only for portrait tablet to landscape and desktop screens */
-    @media (min-width: 768px) {
-        background: #222222 url(../img/common/gplaypattern.png);
-    }
+    background: #222222 url(../img/common/gplaypattern.png);
 }
 
 html.lt-ie9 body {
@@ -85,11 +77,11 @@ a.plain-anchor:hover {
     text-decoration: none;
 }
 
-div.vertical-spacer {
+.panel {
     margin-top: 15px;
 }
 
-div.vertical-spacer.small {
+.panel.small {
     margin-top: 5px;
 }
 
